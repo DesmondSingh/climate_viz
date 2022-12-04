@@ -18,6 +18,7 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |>
   
   labs(x = 'YEAR', 
        y = "Temperature anomoly (C)",
+       subtitle = 'subtitle example',
        title = 'GLOBAL LAND-OCEAN TEMPERATURE INDEX') +
   
   theme_light() + 
