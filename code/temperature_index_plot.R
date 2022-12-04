@@ -26,5 +26,5 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |>
   theme(axis.ticks = element_blank())
 
 
-ggsave('figures/temperature_index_plot.png', width = 6, height = 4)
+ggsave('figures/temperature_index_plot.png', width = 7, height = 4)
 
