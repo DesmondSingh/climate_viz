@@ -1,7 +1,10 @@
 library(tidyverse)
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c9f715b423d52f30e1d3fc88853d233fb8f3b33f
 read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |> 
   
   select(year = Year, t_diff = `J-D`) |> 
@@ -9,6 +12,7 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |>
   ggplot(aes(x = year,
              y = t_diff)) + 
   
+<<<<<<< HEAD
   geom_line(color = 'gray') +
   
   geom_point(fill = 'white', color = 'gray', shape = 21) +
@@ -29,3 +33,6 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |>
 
 
 ggsave('figures/temperature_index_plot.png', width = 6, height = 4)
+=======
+  geom_line()
+>>>>>>> c9f715b423d52f30e1d3fc88853d233fb8f3b33f
