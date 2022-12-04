@@ -28,3 +28,5 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") |>
 
 ggsave('figures/temperature_index_plot.png', width = 6.5, height = 4)
 
+# This is for testing purposes...
+
